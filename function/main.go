@@ -15,6 +15,7 @@ func (g *Greeter) Hello(ctx context.Context, req *proto.HelloRequest, rsp *proto
 }
 
 func main() {
+
 	fnc := micro.NewFunction(
 		micro.Name("greeter"),
 	)

@@ -40,7 +40,7 @@ func main() {
 
 	// register subscriber
 	micro.RegisterSubscriber("example.topic.pubsub.1", service.Server(), new(Sub))
-
+	//micro.NewEvent()
 	// register subscriber with queue, each message is delivered to a unique subscriber
 	micro.RegisterSubscriber("example.topic.pubsub.2", service.Server(), subEv, server.SubscriberQueue("queue.pubsub"))
 
