@@ -6,13 +6,13 @@ This is a repository for go-micro examples. Feel free to contribute.
 
 - [auth](auth) - A example of using middleware to enforce authentication with JWT
 - [broker](broker) - A example of using Broker for Publish and Subscribing.
-- [cache](cache) - Usage of the Cache package to create a cache service.
+- [cache](cache) - Usage of the Cache package to create a cache service.(Context接口官方做了修改)
 - [client](client) - Usage of the Client package to call a service.
 - [config](config) - Using Go Config for dynamic config
 - [event](event) - Using the API Gateway event handler
 - [filter](filter) - Filter nodes of a service when requesting
 - [flags](flags) - Using command line flags with a service
-- [function](function) - Example of using Function programming model
+- [function](function) - Example of using Function programming model(看样子是被废弃了)
 - [getip](getip) - Get the local and remote ip from metadata
 - [graceful](graceful) - Demonstrates graceful shutdown of a service
 - [greeter](greeter) - A complete greeter example (includes python, ruby examples)
@@ -23,7 +23,7 @@ This is a repository for go-micro examples. Feel free to contribute.
 - [noproto](noproto) - Use micro without protobuf or code generation, only go types
 - [options](options) - Setting options in the go-micro framework
 - [plugins](plugins) - How to use plugins
-- [pubsub](pubsub) - Example of using pubsub at the client/server level
+- [pubsub](pubsub) - Example of using pubsub at the client/server level(NewPublisher改名为NewEvent)
 - [redirect](redirect) - An example of how to http redirect using an API service
 - [roundrobin](roundrobin) - A stateful client wrapper for true round robin of requests
 - [secure](secure) - Demonstrates use of transport secure option for self signed certs
